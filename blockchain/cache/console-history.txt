@@ -1,0 +1,7 @@
+feeAccount
+const feeAccount = await marketPlace.feeAccount()
+feePercent
+const feePercent = await marketPlace.feePercent()
+const marketPlace = await ethers.getContractAt("Marketplace","0x5fbdb2315678afecb367f032d93f642f64180aa3")
+const marketplace = await ethers.getContractAt("Marketplace","0x5fbdb2315678afecb367f032d93f642f64180aa3")
+const marketplace = await ethers.getContractAt("marketpalce","0x5fbdb2315678afecb367f032d93f642f64180aa3")
